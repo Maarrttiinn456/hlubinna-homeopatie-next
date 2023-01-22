@@ -1,10 +1,8 @@
 import Navigation from './Navigation'
 import Tabs from './Tabs'
-import SliderItem from './SliderItem.js'
-
-//data 
-import tabs from '../data/tabs-data'
-import articles from '../data/articles-data'
+import Slider from './Slider.js'
+import Footer from './Footer.js'
+ 
 
 const HomePage = (props) => {
     return(
@@ -21,36 +19,16 @@ const HomePage = (props) => {
             </section>
             <section className="h-30 md:h-50 bg-cover bg-bottom" style={{backgroundImage: `url(/img/hero_section.jpg)`}}></section>
 
-            <section className="my-5 sm:mt-10">
+            <section className="my-5 sm:my-10">
                 <div className="container">
-                    <Tabs myTabsData={tabs}/>
+                    <Tabs myTabsData={props.myTabsData} faq={props.faq}/>
                 </div>
             </section>
 
 
             <section>
-                <div className="relative">
-                    <div className="">
-                        <SliderItem articles={articles}/>
-                    </div>
-                    <div className="js-articles-slider-controls absolute w-full">
-                        <div className="container w-full">
-                            <div className="flex justify-between w-100">
-                                <div className="js-controls-prev cursor-pointer">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#d5d5d5"
-                                        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-left">
-                                        <polyline points="15 18 9 12 15 6"></polyline>
-                                    </svg>
-                                </div>
-                                <div className="js-controls-next cursor-pointer"> 
-                                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#d5d5d5" strokeWidth="2"
-                                        strokeLinecap="round" strokeLinecap="round" className="feather feather-chevron-right">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className='relative'>
+                    <Slider articles={props.articles}/>
                 </div>
                 <div className="container">
                     <div className="js-all-articles hidden">
@@ -60,6 +38,10 @@ const HomePage = (props) => {
                     </div>
                 </div>
             </section>
+            <div className='bg-primary'>
+                <div className='w-4/5 m-auto'></div>
+            </div>
+            <Footer/>
         </div>
     )
 }

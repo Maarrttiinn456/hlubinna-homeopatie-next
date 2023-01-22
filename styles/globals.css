@@ -99,11 +99,11 @@
         transition: 0.5s all;
     }
 
-    .js-articles-slider-controls.active {
+    .articles-slider-controls.active {
         display: none !important;
     }
 
-    .js-articles-slider-controls {
+    .articles-slider-controls {
         position: absolute;
         top: 50%;
         left: 0;
@@ -111,22 +111,6 @@
         width: 100%;
     }
 
-    @media screen and (max-width:640px) {
-        .js-articles-slider-controls {
-            top: 40.5rem;
-            display: none;
-        }
-    }
-
-    .modal {
-        max-width: 1240px;
-        box-shadow: 0 0 10px #00000003;
-    }
-
-
-    .modal a.close-modal {
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 24 24' fill='' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-x-circle bg-primary'%3E%3Ccircle cx='12' cy='12' r='10' style='fill:%23113E59'%3E%3C/circle%3E%3Cline x1='15' y1='9' x2='9' y2='15'%3E%3C/line%3E%3Cline x1='9' y1='9' x2='15' y2='15'%3E%3C/line%3E%3C/svg%3E");
-    }
 
     @media screen and (max-width:767px) {
         .modal {
@@ -139,18 +123,23 @@
         color: white;
     }
 
-    #name-error,
-    #surname-error,
-    #email-error {
-        font-size: 12px !important;
-        color: red !important;
-        display: block !important;
-        text-align: right !important;
-        margin-top: 1rem !important;
+    .controls-prev svg:hover,
+    .controls-next svg:hover {
+        stroke: white !important;
     }
 
-    .js-controls-prev svg:hover,
-    .js-controls-next svg:hover {
-        stroke: white !important;
+
+    .slider-item {
+        flex: 0 0 80%;
+        min-width: 0;
+        margin-right: 2px;
+        margin-bottom: 2px;
+    }
+
+
+    @media screen and (max-width:576px) {
+        .slider-item{
+            flex: 0 0 100%
+        }
     }
 }

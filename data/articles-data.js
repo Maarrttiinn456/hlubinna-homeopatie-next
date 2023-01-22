@@ -2,6 +2,7 @@
 
 const articles = [
     {
+        "id": 1,
         "autor": "Josef Schuster",
         "title": "Co je hlubinná homeopatie",
         "image": "/img/img_02.jpg",
@@ -33,9 +34,11 @@ const articles = [
         `
     },
     {
+        "id": 2,
         "autor": "Josef Schuster",
         "title": "Co je homeopatie",
         "image": "/img/img_01.jpg",
+        "path":  "co-je-homeopatie",
         "perex": 'Homeopatie je léčebný systém, jehož základy položil před cca 200 lety německý lékař a vědec Samuel Hahnemann. Dá se shrnout do věty: „Podobné se léčí podobným".',
         "text": `
             Homeopatie je léčebný systém, jehož základy položil před cca 200 lety německý lékař a vědec Samuel Hahnemann.
@@ -59,9 +62,11 @@ const articles = [
 
     },
     {
+        "id": 3,
         "autor": "Josef Schuster",
         "title": "Indická škola Rajana Sankarana",
         "image": "/img/img_04.jpg",
+        "path":  "indicka-homeopatie-rajana-sankarana",
         "perex": "Rajan Sankaran, v současné době již mezinárodně proslavený a uznávaný homeopat, pochází z indické homeopatické rodiny. Již jeho otec byl v Indii uznávaným homeopatem. Rajan Sankaran vystudoval v Indii lékařskou homeopatickou fakultu a začal praktikovat stejným způsobem jako jeho otec, a jako všichni homeopaté od dob Hahnemanna.",
         "text": `
             Rajan Sankaran, v současné době již mezinárodně proslavený a uznávaný homeopat, pochází z indické homeopatické rodiny. Již jeho otec byl v Indii uznávaným homeopatem.
@@ -86,9 +91,11 @@ const articles = [
         `
     },
     {
+        "id": 4,
         "autor": "Josef Schuster",
         "title": "Definice zdraví",
         "image": "/img/img_05.jpg",
+        "path":  "definice-zdravi",
         "perex": 'Může být hodně složitá, ale také hodně jednoduchá. Pravda je často v jednoduchosti... Já se plně stotožňuji se Sankaranovou definicí zdraví: „ZDRAVÍ JE SVOBODA." Svoboda k tomu, radovat se, když je proč, svoboda plakat,být smutný, nebo vzteklý, když je proč, a když pomine příčina, vrátit se zpět do rovnováhy.',
         "text": `
             Může být hodně složitá, ale také hodně jednoduchá. Pravda je často v jednoduchosti...
@@ -102,9 +109,11 @@ const articles = [
         `
     },
     {
+        "id": 5,
         "autor": "Josef Schuster",
         "title": "Žena a homeopatie",
         "image": "/img/img_05.jpg",
+        "path":  "zena-a-homeopatie",
         "perex": "Pakliže jste si otevřely(i) tyto stránky, múže to být z několika důvodů. Jedním je zvědavost, nejpřirozenější lidská vlastnost, bez které by nebylo vývoje a pokroku. Dalším důvodem může být zoufalství. Třeba zoufalství nad tím, že už jste obešly spoustu lékařů, vyzkoušely množství léků, jejichž jediným účinkem byly účinky",
         "text": `
             Pakliže jste si otevřely(i) tyto stránky, múže to být z několika důvodů. Jedním je zvědavost, nejpřirozenější lidská vlastnost, bez které by nebylo vývoje a pokroku.
@@ -140,9 +149,11 @@ const articles = [
         `
     },
     {
+        "id": 6,
         "autor": "Josef Schuster",
         "title": "Od symptomů k systému - homeopatie pro 21. století",
         "image": "/img/img_02.jpg",
+        "path":  "od-symptomu-k-systemu-homeopatie-pro-21-stoleti",
         "perex": "Již je tomu více než 200 let, co Samuel Hahnemann (1755 - 1843) dal světu homeopatii. Homeopatii jako metodu, která dokáže stimulovat samoozdravné procesy v organismu a vede k opravdovému uzdravení, a nejenom k potlačení symptomů.",
         "text": `
             Již je tomu více než 200 let, co Samuel Hahnemann (1755 - 1843) dal světu homeopatii. Homeopatii jako metodu, která dokáže stimulovat samoozdravné procesy v organismu a vede k opravdovému uzdravení, a nejenom k potlačení symptomů.
@@ -193,9 +204,11 @@ const articles = [
         `
     },
     {
+        "id": 7,
         "autor": "Josef Schuster",
         "title": "Preverbální homeopatie",
         "image": "/img/img_01.jpg",
+        "path":  "preverbalni-homeopatie",
         "perex": "Homeopatie pro nejmenší pacienty. Homeopatie je jemná a šetrná metoda, která vede k opravdovému vyléčení, a nejenom k potlačení symptomů, jak to často vidíme u klasické (alopatické) medicíny.",
         "text": `
             Homeopatie pro nejmenší pacienty.
@@ -219,9 +232,11 @@ const articles = [
         `
     },
     {
+        "id": 8,
         "autor": "Josef Schuster",
         "title": "Homeopatie a psychiatrie",
         "image": "/img/img_04.jpg",
+        "path":  "homeopatie-a-psychiatrie",
         "perex": "Homeopatie jako léčebná metoda u pacientů s psychiatrickými diagnózami, tak zněl přibližný překlad názvu semináře, kterého jsem se zúčastnil letos v červenci (2010).",
         "text": `
             Homeopatie jako léčebná metoda u pacientů s psychiatrickými diagnózami,
@@ -240,9 +255,11 @@ const articles = [
         `
     },
     {
+        "id": 9,
         "autor": "Josef Schuster",
         "title": '..."homeopatie jako homeopatie..." ?',
         "image": "/img/indie.jpg",
+        "path":  "homeopatie-jako-homeopatie",
         "perex": "Pod tímto, trochu skurilním nadpisem, mám potřebu vnést jasno do jednotlivých směrů homeopatie. Zde vnímám velké nedorozumění, a dotazy na mých přednáškách to jen potvrzují. Ale rovnou k věci. Není homeopatie, jako homeopatie. V zásadě musíme rozlišit dva velké systémy.",
         "text": `
             Pod tímto, trochu skurilním nadpisem, mám potřebu vnést jasno do jednotlivých směrů homeopatie. Zde vnímám velké nedorozumění, a dotazy na mých přednáškách to jen potvrzují.
@@ -321,9 +338,11 @@ const articles = [
         `
     },
     {
+        "id": 10,
         "autor": "Josef Schuster",
         "title": "Indická homeopatie",
         "image": "/img/img_05.jpg",
+        "path":  "indicka-homeopatie",
         "perex": "Od dob Hahnemanna, zakladatele homeopatie, až po současnost je nejčastější metodou předepsání léku pacientovi tzv.předepsání podle symptomů, či totality symptomů. Snažíme se od pacienta získat co nejvíce příznaků (symptomů), a ty pak porovnat s výčtem symptomů příslušných homeopatických léků.",
         "text": `
             <br><br>
