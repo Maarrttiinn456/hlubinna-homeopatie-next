@@ -2,7 +2,6 @@
 
 
 const FaqTabs = (props) => {
-    console.log(props.faq)
     return(
        <div>
             <div onClick={props.openTab} class="border-b border-primary pb-0.5 cursor-pointer">
@@ -36,4 +35,4 @@ const FaqTabs = (props) => {
     )
 }
 
-export default FaqTabs 
+export default FaqTabs  

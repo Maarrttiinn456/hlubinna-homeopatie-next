@@ -61,6 +61,8 @@ module.exports = {
       15: '15rem',
       20: '20rem',
       25: '25rem',
+      30: '30rem',
+      55: '55rem',
     },
     height: {
       px: '1px', 

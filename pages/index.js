@@ -13,6 +13,7 @@ export default function Home(props) {
   return (
     <>
       <HomePage myTabsData={props.tabs} articles={props.articles} faq={faq}/>
+      
     </> 
   ) 
 
@@ -27,4 +28,4 @@ export async function getStaticProps () {
             tabs: tabs
         },
     }
-}
+} 

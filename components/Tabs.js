@@ -27,7 +27,7 @@ const Tabs = (props) => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="text-md md:text-lg mt-2 sm:mt-4 w-10/11 sm:w-3/4 m-auto px-1 sm:px-0">
+                                <div className="text-md md:text-lg mt-2 sm:mt-4 w-10/11 sm:w-3/4 m-auto px-1 sm:px-0 hidden">
                                     {content}
                                 </div>
                             </div>

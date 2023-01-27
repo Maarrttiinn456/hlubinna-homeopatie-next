@@ -109,13 +109,7 @@
         left: 0;
         transform: translateY(-50%);
         width: 100%;
-    }
 
-
-    @media screen and (max-width:767px) {
-        .modal {
-            width: 100%;
-        }
     }
 
     .slider-switcher div.active {
@@ -140,6 +134,9 @@
     @media screen and (max-width:576px) {
         .slider-item{
             flex: 0 0 100%
+        }
+        .articles-slider-controls{
+            top: 70%;
         }
     }
 }

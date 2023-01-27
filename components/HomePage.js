@@ -1,8 +1,7 @@
-import Navigation from './Navigation'
+
 import Tabs from './Tabs'
 import Slider from './Slider.js'
-import Footer from './Footer.js'
- 
+import Navigation from './Navigation'
 
 const HomePage = (props) => {
     return(
@@ -41,7 +40,6 @@ const HomePage = (props) => {
             <div className='bg-primary'>
                 <div className='w-4/5 m-auto'></div>
             </div>
-            <Footer/>
         </div>
     )
 }

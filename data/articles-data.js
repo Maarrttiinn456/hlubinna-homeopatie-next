@@ -9,8 +9,7 @@ const articles = [
         "path":  "co-je-to-hlubinna-homeopatie",
         "perex": "Hlubinná homeopatie je nový směr, který ve světě získává stále více stoupenců mezi homeopaty, a to především díky skvělým výsledkům v homeopatické léčbě. Jde o kombinaci metod klasické konstituční homeopatie s evoluční psychologií a Sankaranovou bombajskou školou (Sensational Homeopathy).",
         "text": `
-            Hlubinná homeopatie je nový směr, který ve světě získává stále více stoupenců mezi homeopaty, a to především díky skvělým výsledkům v homeopatické léčbě. Jde o kombinaci metod klasické konstituční homeopatie s evoluční psychologií a Sankaranovou bombajskou školou (Sensational Homeopathy).
-            <br><br>
+            Hlubinná homeopatie je nový směr,  který ve světě získává stále více stoupenců mezi homeopaty, a to především díky skvělým výsledkům v homeopatické léčbě. Jde o kombinaci metod klasické konstituční homeopatie s evoluční psychologií a Sankaranovou bombajskou školou (Sensational Homeopathy).
             Opírá se o objevné a průlomové práce homeopatů Jana Scholtena, Rajana Sankarana a vývojového psychologa Erika Eriksona.
             <br><br>
             Přeložit do češtiny tento směr jako hlubinná homeopatie mi přišlo z didaktického hlediska jako nejvhodnější. Mám za to, že i bez znalosti prací shora zmíněných autorů termín hlubinná dokáže ve většině zájemců vyvolat tu správnou představu. I v Česku jsou běžným pojmem a skutečností různé druhy hlubinných terapií. Hlubinný zde znamená jdoucí do hloubky. Překonat v sezení s pacientem (klientem) to, co je na povrchu ( běžné povrchní každodenní starosti) a proniknout hlouběji, vytahnout na povrch to, co se skrývá pod nánosem té každodennosti. Jen tam lze totiž najít pravdu.
@@ -68,8 +67,7 @@ const articles = [
         "image": "/img/img_04.jpg",
         "path":  "indicka-homeopatie-rajana-sankarana",
         "perex": "Rajan Sankaran, v současné době již mezinárodně proslavený a uznávaný homeopat, pochází z indické homeopatické rodiny. Již jeho otec byl v Indii uznávaným homeopatem. Rajan Sankaran vystudoval v Indii lékařskou homeopatickou fakultu a začal praktikovat stejným způsobem jako jeho otec, a jako všichni homeopaté od dob Hahnemanna.",
-        "text": `
-            Rajan Sankaran, v současné době již mezinárodně proslavený a uznávaný homeopat, pochází z indické homeopatické rodiny. Již jeho otec byl v Indii uznávaným homeopatem.
+        "text": `Rajan Sankaran, v současné době již mezinárodně proslavený a uznávaný homeopat, pochází z indické homeopatické rodiny. Již jeho otec byl v   Indii uznávaným homeopatem.
             <br><br>
             Rajan Sankaran vystudoval v Indii lékařskou homeopatickou fakultu a začal praktikovat stejným způsobem jako jeho otec, a jako všichni homeopaté od dob Hahnemanna. Při odebírání případů od pacientů si zapisoval symptomy, které tito líčili, a tyto symptomy poté repertorizoval, tzn. Hledal k nim ve speciálních knihách (repertoriích), či později pomocí počítačového programu, nejvhodnější homeopatický lék.
             <br><br>
@@ -87,8 +85,7 @@ const articles = [
             <br><br>
             A co je na této metodě nejrevolučnější, můžeme tak „dosáhnout“ i na léky, které jsou dosud málo prozkoumané, tudíž je známo jen málo jejich symptomů, takže klasickou repertorisací pomocí knih n.počítačem k takovému léku nikdy nelze dojít (a pokud Vy byste zrovna takový potřeboval(a), měl(a) byste prostě smůlu) .
             <br><br>
-            V tom spatřuji hlavní význam Sankaranova objevu, považuji ho za stejnou událost, jako objevení homeopatie Samuelem Hahnemannem. Je to pro mě další kvantový skok v homeopatii – homeopatii pro 21 století.
-        `
+            V tom spatřuji hlavní význam Sankaranova objevu, považuji ho za stejnou událost, jako objevení homeopatie Samuelem Hahnemannem. Je to pro mě další kvantový skok v homeopatii – homeopatii pro 21 století.`
     },
     {
         "id": 4,
