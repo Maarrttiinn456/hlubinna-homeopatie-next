@@ -7,7 +7,7 @@ const HomePage = (props) => {
     return(
         <div>
             <Navigation/> 
-            <section className="my-4 sm:my-5">
+            <section className="mb-4 sm:mb-5 mt-10 sm:mt-11">
                 <div className="container">
                     <h1 className="h2 sm:h1 text-primary">Hlubinná homeopatie</h1>
                     <div className="flex flex-col items-end justify-between w-100 lg:flex-row lg:items-baseline mt-1">
@@ -18,7 +18,7 @@ const HomePage = (props) => {
             </section>
             <section className="h-30 md:h-50 bg-cover bg-bottom" style={{backgroundImage: `url(/img/hero_section.jpg)`}}></section>
 
-            <section className="my-5 sm:my-10">
+            <section className="my-5 sm:my-10" id='o-mne'>
                 <div className="container">
                     <Tabs myTabsData={props.myTabsData} faq={props.faq}/>
                 </div>

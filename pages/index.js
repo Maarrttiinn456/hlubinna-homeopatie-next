@@ -13,7 +13,6 @@ export default function Home(props) {
   return (
     <>
       <HomePage myTabsData={props.tabs} articles={props.articles} faq={faq}/>
-      
     </> 
   ) 
 

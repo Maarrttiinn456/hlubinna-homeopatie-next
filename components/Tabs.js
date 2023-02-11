@@ -3,7 +3,11 @@ import FaqTabs from './FaqTabs'
 const openTab = (e) => {
     const currentTab = e.currentTarget.nextSibling
     !currentTab.classList.contains('hidden') ? currentTab.classList.add('hidden') : currentTab.classList.remove('hidden')
+
+    let icon = e.currentTarget.getElementsByClassName("plus")[0]
+    !icon.classList.contains('hidden') ? icon.classList.add('hidden') : icon.classList.remove('hidden')
 }
+
 
 const Tabs = (props) => {
     return(
@@ -32,7 +36,6 @@ const Tabs = (props) => {
                                 </div>
                             </div>
                         </div>
-                    
                     )
                 })
             }

@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return(
-        <section className="bg-primary py-5">
+        <section className="bg-primary py-5 relative" id="kontakty">
             <div className="container">
                 <div className="flex flex-col lg:flex-row justify-between">
                     <div className="basis-3/12">

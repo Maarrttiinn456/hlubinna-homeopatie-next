@@ -342,7 +342,6 @@ const articles = [
         "path":  "indicka-homeopatie",
         "perex": "Od dob Hahnemanna, zakladatele homeopatie, až po současnost je nejčastější metodou předepsání léku pacientovi tzv.předepsání podle symptomů, či totality symptomů. Snažíme se od pacienta získat co nejvíce příznaků (symptomů), a ty pak porovnat s výčtem symptomů příslušných homeopatických léků.",
         "text": `
-            <br><br>
             Od dob Hahnemanna, zakladatele homeopatie, až po současnost je nejčastější metodou předepsání léku pacientovi tzv.předepsání podle symptomů, či totality symptomů. Snažíme se od pacienta získat co nejvíce příznaků (symptomů), a ty pak porovnat s výčtem symptomů příslušných homeopatických léků.
             <br><br>
             Základní otázkou pro homeopata zůstává, jak dosáhnout na ten pro pacienta nejsprávnější lék, a přitom se neztratit v symptomech.
